@@ -1,15 +1,13 @@
 import sys
-import json
-import random
 import datetime
 import math
 from collections import deque
 
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                              QHBoxLayout, QLabel, QPushButton, QFrame, QGridLayout, 
-                             QGroupBox, QDoubleSpinBox, QFileDialog, QMessageBox,
-                             QTabWidget, QTableWidget, QTableWidgetItem, QHeaderView, 
-                             QSizePolicy, QProgressBar, QLCDNumber)
+                             QGroupBox, QDoubleSpinBox,
+                              QTableWidget, QTableWidgetItem, QHeaderView, 
+                             QSizePolicy)
 from PyQt5.QtCore import QTimer, Qt, QRectF
 from PyQt5.QtGui import QPainter, QColor, QPen, QFont, QLinearGradient
 
@@ -234,7 +232,7 @@ class TurboPump(QWidget):
 class FutureSCADA(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("SCADA PL - System Sterowania Recepturowego")
+        self.setWindowTitle("SCADA - PROJEKT PG")
         self.resize(1280, 900)
         self.setStyleSheet("""
             QMainWindow { background-color: #121212; }
