@@ -14,7 +14,7 @@ System symuluje działanie sterownika przemysłowego z wykorzystaniem algorytmó
 
 ## 🚀 Główne Funkcjonalności
 * **Wizualizacja High-End:** Interfejs z animowanymi pompami wirnikowymi i płynnym przepływem w rurach.
-* **Zaawansowane Sterowanie (DualPID):** Autorski algorytm obsługujący zarówno grzanie, jak i aktywne chłodzenie w celu utrzymania zadanej temperatury.
+* **Zaawansowane Sterowanie:** Algorytm obsługujący zarówno grzanie, jak i aktywne chłodzenie w celu utrzymania zadanej temperatury.
 * **Predykcja Feed-Forward:** System oblicza straty ciepła podczas transportu do magazynu i automatycznie koryguje temperaturę docelową ("Naddatek Termiczny").
 * **Realistyczna Fizyka:** Symulacja bezwładności termicznej, mieszania cieczy o różnych temperaturach oraz stygnięcia wg prawa Newtona (nawet po awaryjnym zatrzymaniu).
 * **Bezpieczeństwo:** Obsługa przycisku **AWARYJNY STOP** (Pause) oraz **PEŁNY RESET**.
